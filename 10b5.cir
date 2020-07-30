@@ -1,0 +1,75 @@
+* /home/ameya/eSim-Workspace/10b5/10b5.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Thu Jul 30 12:30:29 2020
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+R1  /vdd Net-_R1-Pad2_ 1k		
+R2  Net-_R1-Pad2_ Net-_R2-Pad2_ 1k		
+R3  Net-_R2-Pad2_ Net-_R3-Pad2_ 1k		
+R4  Net-_R3-Pad2_ Net-_R4-Pad2_ 1k		
+v1  /vdd GND DC		
+v2  d0 GND pulse		
+v3  d1 GND pulse		
+v4  d2 GND pulse		
+v5  d3 GND pulse		
+v6  d4 GND pulse		
+v7  d5 GND pulse		
+v8  d6 GND pulse		
+v9  d7 GND pulse		
+v10  d8 GND pulse		
+v11  d9 GND pulse		
+R5  Net-_R4-Pad2_ Net-_R5-Pad2_ 1k		
+R6  Net-_R5-Pad2_ Net-_R6-Pad2_ 1k		
+R7  Net-_R6-Pad2_ Net-_R7-Pad2_ 1k		
+R8  Net-_R7-Pad2_ Net-_R8-Pad2_ 1k		
+X1  d0 /vdd GND Net-_R8-Pad2_ Net-_R7-Pad2_ Net-_X1-Pad6_ swi		
+X3  d0 /vdd GND Net-_R6-Pad2_ Net-_R5-Pad2_ Net-_X3-Pad6_ swi		
+X5  d0 /vdd GND Net-_R4-Pad2_ Net-_R3-Pad2_ Net-_X5-Pad6_ swi		
+X2  d0 /vdd GND Net-_R2-Pad2_ Net-_R1-Pad2_ Net-_X2-Pad6_ swi		
+X6  d1 /vdd GND Net-_X1-Pad6_ Net-_X3-Pad6_ Net-_X10-Pad4_ swi		
+X8  d1 /vdd GND Net-_X3-Pad6_ Net-_X5-Pad6_ Net-_X10-Pad5_ swi		
+X7  d1 /vdd GND Net-_X5-Pad6_ Net-_X2-Pad6_ Net-_X12-Pad5_ swi		
+X10  d2 /vdd GND Net-_X10-Pad4_ Net-_X10-Pad5_ Net-_X10-Pad6_ swi		
+X12  d2 /vdd GND Net-_X10-Pad5_ Net-_X12-Pad5_ Net-_X12-Pad6_ swi		
+X13  d3 /vdd GND Net-_X10-Pad6_ Net-_X12-Pad6_ Net-_X13-Pad6_ swi		
+R9  Net-_R8-Pad2_ Net-_R10-Pad1_ 1k		
+R10  Net-_R10-Pad1_ Net-_R10-Pad2_ 1k		
+R11  Net-_R10-Pad2_ GND 1k		
+X4  d0 /vdd GND Net-_R10-Pad2_ Net-_R10-Pad1_ Net-_X4-Pad6_ swi		
+X9  d1 /vdd GND Net-_X4-Pad6_ Net-_X1-Pad6_ Net-_X11-Pad4_ swi		
+X11  d2 /vdd GND Net-_X11-Pad4_ Net-_X10-Pad4_ Net-_X11-Pad6_ swi		
+X14  d3 /vdd GND Net-_X11-Pad6_ Net-_X10-Pad6_ Net-_X14-Pad6_ swi		
+X15  d4 /vdd GND Net-_X14-Pad6_ Net-_X13-Pad6_ /out1 swi		
+R12  Net-_R10-Pad2_ Net-_R12-Pad2_ 1k		
+R13  Net-_R12-Pad2_ Net-_R13-Pad2_ 1k		
+R14  Net-_R13-Pad2_ Net-_R14-Pad2_ 1k		
+R15  Net-_R14-Pad2_ Net-_R15-Pad2_ 1k		
+R16  Net-_R15-Pad2_ Net-_R16-Pad2_ 1k		
+R17  Net-_R16-Pad2_ Net-_R17-Pad2_ 1k		
+R18  Net-_R17-Pad2_ Net-_R18-Pad2_ 1k		
+R19  Net-_R18-Pad2_ Net-_R19-Pad2_ 1k		
+X16  d5 /vdd GND Net-_R19-Pad2_ Net-_R18-Pad2_ Net-_X16-Pad6_ swi		
+X18  d5 /vdd GND Net-_R17-Pad2_ Net-_R16-Pad2_ Net-_X18-Pad6_ swi		
+X20  d5 /vdd GND Net-_R15-Pad2_ Net-_R14-Pad2_ Net-_X20-Pad6_ swi		
+X17  d5 /vdd GND Net-_R13-Pad2_ Net-_R12-Pad2_ Net-_X17-Pad6_ swi		
+X21  d6 /vdd GND Net-_X16-Pad6_ Net-_X18-Pad6_ Net-_X21-Pad6_ swi		
+X23  d6 /vdd GND Net-_X18-Pad6_ Net-_X20-Pad6_ Net-_X23-Pad6_ swi		
+X22  d6 /vdd GND Net-_X20-Pad6_ Net-_X17-Pad6_ Net-_X22-Pad6_ swi		
+X25  d7 /vdd GND Net-_X21-Pad6_ Net-_X23-Pad6_ Net-_X25-Pad6_ swi		
+X27  d7 /vdd GND Net-_X23-Pad6_ Net-_X22-Pad6_ Net-_X27-Pad6_ swi		
+X28  d8 /vdd GND Net-_X25-Pad6_ Net-_X27-Pad6_ Net-_X28-Pad6_ swi		
+R20  Net-_R19-Pad2_ Net-_R20-Pad2_ 1k		
+R21  Net-_R20-Pad2_ Net-_R21-Pad2_ 1k		
+R22  Net-_R21-Pad2_ GND 1k		
+X19  d5 /vdd GND Net-_R21-Pad2_ Net-_R20-Pad2_ Net-_X19-Pad6_ swi		
+X24  d6 /vdd GND Net-_X19-Pad6_ Net-_X16-Pad6_ Net-_X24-Pad6_ swi		
+X26  d7 /vdd GND Net-_X24-Pad6_ Net-_X21-Pad6_ Net-_X26-Pad6_ swi		
+X29  d8 /vdd GND Net-_X26-Pad6_ Net-_X25-Pad6_ Net-_X29-Pad6_ swi		
+X30  d9 /vdd GND Net-_X29-Pad6_ Net-_X28-Pad6_ /out2 swi		
+U2  /out2 plot_v1		
+U1  /out1 plot_v1		
+
+.end
